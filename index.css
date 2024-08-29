@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is the style of pre navbar */
+
+.prenav {
+    height: 30px;
+    width: 100%;
+    background-color: #F85606;
+
+
+}
+
+.prenav ul {
+    padding-top: 8px;
+    padding-right: 50px;
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.prenav ul li {
+    list-style: none;
+    color: white;
+    font-size: 13px;
+}
+
+ ul :hover{
+  background-color: rgb(126, 107, 107);
+}
+
+/* Next will be main navbar */
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #F85606;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+
+}
+
+.logo{
+    height: 80px;
+    width: 150px;
+    left: -10px;
+    top: -40px;
+
+}
+.logo img{
+    height: 80px;
+}
+#navsearch{
+    height: 50px;
+    width: 500px;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: #FFE1D2;
+    margin-top: -50px;
+    margin-left: 600px;
+}
+
+.iconi{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #F85606;
+
+}
+.cart{
+    height: 50px;
+    width: 50px;
+    background-color: #F85606;
+    margin-top: -50px;
+    margin-left: 680px;
+
+}
+.carti{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+}
